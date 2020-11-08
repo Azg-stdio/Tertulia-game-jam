@@ -46,13 +46,13 @@ public class InteractableObject : MonoBehaviour
 
     void DeActivateScript(){
         if (actions == action.Hide){
-            GetComponent<Hide>().enabled=true;      
+            GetComponent<Hide>().enabled=false;      
         }
         else if (actions == action.Grab){
-            GetComponent<Grab>().enabled=true;  
+            GetComponent<Grab>().enabled=false;  
         }
         else if (actions == action.Teleport){
-            GetComponent<Teleport>().enabled=true; 
+            GetComponent<Teleport>().enabled=false; 
         }
     }
 }
