@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
     {
         direction.x = Input.GetAxis("Horizontal");
         direction.z = Input.GetAxis("Vertical");
+        direction.Normalize();
         isRunning =  Input.GetButton("Run");
     }
     private void FixedUpdate()
