@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Hide : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject player;
     void Start()
     {
         
@@ -13,6 +13,10 @@ public class Hide : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown("space"))
+        {
+            //run animation
+            //move monster away
+        }
     }
 }

@@ -7,6 +7,7 @@ public class Grab : MonoBehaviour
 {
     public Image newspiece;
     public GameObject canvas;
+    public GameObject piece;
     void Start()
     {
         
@@ -19,7 +20,8 @@ public class Grab : MonoBehaviour
         {
             newspiece.sprite=GetComponent<SpriteRenderer>().sprite;
             canvas.SetActive(true);
-            this.gameObject.SetActive(false);            
+            piece.SetActive(true);
+            this.gameObject.SetActive(false);
         }
     }
 }
