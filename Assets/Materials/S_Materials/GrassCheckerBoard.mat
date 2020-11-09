@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Transition_ONLY_texture
+  m_Name: GrassCheckerBoard
   m_Shader: {fileID: -6465566751694194690, guid: 4519bb90e95ac6849a9ff49f8da38b2a,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
@@ -38,7 +38,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_DEEE228E:
-        m_Texture: {fileID: 2800000, guid: c4f44bf2bf02c804d9064035c5b75a2b, type: 3}
+        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -82,7 +82,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_21AB9E8A: 0.2
+    - Vector1_21AB9E8A: 0
     - Vector1_248D0FA8: 1
     - Vector1_5408B5B8: 1
     - Vector1_5757FF29: 1
@@ -112,8 +112,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_46B0C32B: {r: 0.9433962, g: 0.64925843, b: 0.18244925, a: 1}
-    - Vector2_4581F582: {r: -0.2, g: 0.3, b: 0, a: 0}
-    - Vector2_B2C7CED7: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_4581F582: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_B2C7CED7: {r: 2.01, g: 3.46, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
