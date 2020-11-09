@@ -1,0 +1,34 @@
+
+Plant_1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Flower
+  rotate: false
+  xy: 334, 83
+  size: 125, 227
+  orig: 125, 227
+  offset: 0, 0
+  index: -1
+LeafDown
+  rotate: false
+  xy: 2, 2
+  size: 302, 195
+  orig: 302, 195
+  offset: 0, 0
+  index: -1
+LeafMid
+  rotate: false
+  xy: 179, 199
+  size: 153, 111
+  orig: 153, 111
+  offset: 0, 0
+  index: -1
+LeafTop
+  rotate: false
+  xy: 2, 228
+  size: 175, 82
+  orig: 175, 82
+  offset: 0, 0
+  index: -1

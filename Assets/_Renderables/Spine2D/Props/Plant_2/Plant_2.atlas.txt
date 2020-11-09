@@ -1,0 +1,27 @@
+
+Plant_2.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Leaf_L
+  rotate: false
+  xy: 606, 18
+  size: 100, 160
+  orig: 100, 160
+  offset: 0, 0
+  index: -1
+Leaf_R
+  rotate: false
+  xy: 482, 2
+  size: 122, 176
+  orig: 122, 176
+  offset: 0, 0
+  index: -1
+PLants
+  rotate: false
+  xy: 2, 24
+  size: 478, 154
+  orig: 478, 154
+  offset: 0, 0
+  index: -1
