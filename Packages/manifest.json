@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.esotericsoftware.spine.urp-shaders": "file:C:/Users/Stefacastano/Downloads/com.esotericsoftware.spine.urp-shaders-3.8-2019.3",
+    "com.esotericsoftware.spine.urp-shaders": "git.com.esotericsoftware.spine.urp-shaders",
     "com.unity.cinemachine": "2.6.3",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",
