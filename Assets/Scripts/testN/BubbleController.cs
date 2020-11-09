@@ -12,7 +12,7 @@ public class BubbleController : MonoBehaviour
     void Start()
     {
         m_material = GetComponent<Renderer>().material;
-        m_playerPosition = GameObject.Find("Player");
+        m_playerPosition = GameObject.FindGameObjectWithTag("Bubble");
         SetPlayerPosition();
     }
 
