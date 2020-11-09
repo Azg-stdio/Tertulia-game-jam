@@ -7,12 +7,19 @@ public class EnemyController : MonoBehaviour
 {
     [SerializeField]
     private GameObject player;
+
+    [SerializeField]
+    private List<Transform> patrolPoints;
+    [SerializeField]
+    private float tresholdToPatrolPoint=1.0f;
+    private Transform patrolActualDestination;
     private NavMeshAgent agent;
     public bool isChasing { get; set; }
-
+    public bool isPatrolling{ get; set; }
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        patrolActualDestination = patrolPoints[Random.Range(0,patrolPoints.Count)];
     }
 
     void Update()
@@ -24,9 +31,22 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
-            agent.isStopped = true;
+            if(!isPatrolling){
+                agent.isStopped = true;
+            }
+            else{
+                if((transform.position - patrolActualDestination.transform.position).magnitude<tresholdToPatrolPoint)
+                {
+                    patrolActualDestination = patrolPoints[Random.Range(0,patrolPoints.Count)];
+                }
+                agent.destination = patrolActualDestination.transform.position;
+                agent.isStopped = false;
+            }
+            
         }
     }
+
+
     void MoveToOnClickedPoint()
     {
         if (Input.GetMouseButtonDown(0))
