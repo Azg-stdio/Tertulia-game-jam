@@ -8,6 +8,7 @@ public class Grab : MonoBehaviour
     public Image newspiece;
     public GameObject canvas;
     public GameObject piece;
+    public GameObject bubble;
     void Start()
     {
         
@@ -21,7 +22,8 @@ public class Grab : MonoBehaviour
             newspiece.sprite=GetComponent<SpriteRenderer>().sprite;
             canvas.SetActive(true);
             piece.SetActive(true);
-            this.gameObject.SetActive(false);
+            bubble.GetComponent<BubbleReducer>().ReduceBubble();
+            Destroy(this.gameObject);
         }
     }
 }
