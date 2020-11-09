@@ -1,0 +1,111 @@
+
+Enemy.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 2, 319
+  size: 701, 568
+  orig: 701, 568
+  offset: 0, 0
+  index: -1
+BodyBack
+  rotate: true
+  xy: 572, 400
+  size: 620, 563
+  orig: 620, 563
+  offset: 0, 0
+  index: -1
+EyesMultiple
+  rotate: false
+  xy: 568, 171
+  size: 491, 146
+  orig: 491, 146
+  offset: 0, 0
+  index: -1
+EyesTop
+  rotate: true
+  xy: 2, 16
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+ForeLeg_Back_L
+  rotate: true
+  xy: 431, 29
+  size: 109, 85
+  orig: 109, 85
+  offset: 0, 0
+  index: -1
+ForeLeg_Back_R
+  rotate: true
+  xy: 518, 29
+  size: 109, 85
+  orig: 109, 85
+  offset: 0, 0
+  index: -1
+ForeLeg_Front_L
+  rotate: false
+  xy: 307, 3
+  size: 63, 53
+  orig: 63, 53
+  offset: 0, 0
+  index: -1
+ForeLeg_Front_R
+  rotate: true
+  xy: 372, 16
+  size: 57, 47
+  orig: 57, 47
+  offset: 0, 0
+  index: -1
+Leg_Back_L
+  rotate: false
+  xy: 157, 45
+  size: 72, 272
+  orig: 72, 272
+  offset: 0, 0
+  index: -1
+Leg_Back_R
+  rotate: false
+  xy: 231, 45
+  size: 72, 272
+  orig: 72, 272
+  offset: 0, 0
+  index: -1
+Leg_Front_L
+  rotate: false
+  xy: 305, 58
+  size: 63, 259
+  orig: 63, 259
+  offset: 0, 0
+  index: -1
+Leg_Front_R
+  rotate: false
+  xy: 370, 75
+  size: 59, 242
+  orig: 59, 242
+  offset: 0, 0
+  index: -1
+LowerTeeth
+  rotate: true
+  xy: 431, 140
+  size: 177, 135
+  orig: 177, 135
+  offset: 0, 0
+  index: -1
+Mask
+  rotate: true
+  xy: 2, 37
+  size: 280, 153
+  orig: 280, 153
+  offset: 0, 0
+  index: -1
+UpperTeeth
+  rotate: false
+  xy: 157, 2
+  size: 148, 41
+  orig: 148, 41
+  offset: 0, 0
+  index: -1
