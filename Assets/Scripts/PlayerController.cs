@@ -9,6 +9,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private Vector3 direction;
     private bool isRunning = false;
+    private bool isMoving = true;
+    public GameObject canvas;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -17,14 +20,32 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        direction.x = Input.GetAxis("Horizontal");
-        direction.z = Input.GetAxis("Vertical");
-        direction.Normalize();
-        isRunning =  Input.GetButton("Run");
+        if(isMoving){
+            direction.x = Input.GetAxis("Horizontal");
+            direction.z = Input.GetAxis("Vertical");
+            direction.Normalize();
+            isRunning =  Input.GetButton("Run");
+        }   
+        if (Input.GetKeyDown("space")){     
+            if (canvas.activeSelf){
+                canvas.SetActive(false);
+            }
+        }    
     }
     private void FixedUpdate()
     {
-        if (!isRunning) { rb.velocity = direction * speed; }
-        else { rb.velocity = direction * runSpeed; }
+        if(isMoving){
+            if (!isRunning) { rb.velocity = direction * speed; }
+            else { rb.velocity = direction * runSpeed; }
+        }        
+    }
+
+    public void StartMoving(){
+        isMoving=true;
+    }
+
+    public void StopMoving(){
+        isMoving=false;
+        rb.velocity=Vector3.zero;
     }
 }
