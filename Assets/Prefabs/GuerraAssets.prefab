@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 351875736689229829}
   m_Layer: 0
   m_Name: Costal4 (19)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49,7 +49,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 5848421349903943011}
   m_Layer: 0
   m_Name: Costal4 (17)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,7 +130,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 2485320197468789476}
   m_Layer: 0
   m_Name: Costal4 (18)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -211,7 +211,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 6157770762124110270}
   m_Layer: 0
   m_Name: valla (3)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -292,7 +292,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -336,7 +336,7 @@ GameObject:
   - component: {fileID: 6157770762135636472}
   m_Layer: 0
   m_Name: valla (1)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -373,7 +373,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -417,7 +417,7 @@ GameObject:
   - component: {fileID: 6157770762148964598}
   m_Layer: 0
   m_Name: Rock
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -454,7 +454,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 6157770762159506946}
   m_Layer: 0
   m_Name: valla (10)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -535,7 +535,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 6157770762232728809}
   m_Layer: 0
   m_Name: Cross1 (3)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -616,7 +616,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -660,7 +660,7 @@ GameObject:
   - component: {fileID: 6157770762280940797}
   m_Layer: 0
   m_Name: valla (13)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -697,7 +697,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -741,7 +741,7 @@ GameObject:
   - component: {fileID: 6157770762400447342}
   m_Layer: 0
   m_Name: Costal4 (9)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -778,7 +778,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -822,7 +822,7 @@ GameObject:
   - component: {fileID: 6157770762434039410}
   m_Layer: 0
   m_Name: Cross1 (1)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -859,7 +859,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -903,7 +903,7 @@ GameObject:
   - component: {fileID: 6157770762465224167}
   m_Layer: 0
   m_Name: barril
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -940,7 +940,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -984,7 +984,7 @@ GameObject:
   - component: {fileID: 6157770762618634220}
   m_Layer: 0
   m_Name: valla (9)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1021,7 +1021,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1065,7 +1065,7 @@ GameObject:
   - component: {fileID: 6157770762778180976}
   m_Layer: 0
   m_Name: Cross2 (3)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1102,7 +1102,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1146,7 +1146,7 @@ GameObject:
   - component: {fileID: 6157770762836270461}
   m_Layer: 0
   m_Name: valla (12)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1183,7 +1183,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1227,7 +1227,7 @@ GameObject:
   - component: {fileID: 6157770762947178844}
   m_Layer: 0
   m_Name: Costal4
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1264,7 +1264,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1308,7 +1308,7 @@ GameObject:
   - component: {fileID: 6157770763001856537}
   m_Layer: 0
   m_Name: valla (4)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1345,7 +1345,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1389,7 +1389,7 @@ GameObject:
   - component: {fileID: 6157770763007365220}
   m_Layer: 0
   m_Name: valla (11)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1426,7 +1426,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1470,7 +1470,7 @@ GameObject:
   - component: {fileID: 6157770763018614143}
   m_Layer: 0
   m_Name: Costal3 (1)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1507,7 +1507,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1551,7 +1551,7 @@ GameObject:
   - component: {fileID: 6157770763029329337}
   m_Layer: 0
   m_Name: Cross2 (1)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1588,7 +1588,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1632,7 +1632,7 @@ GameObject:
   - component: {fileID: 6157770763075630809}
   m_Layer: 0
   m_Name: Costal4 (12)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1669,7 +1669,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 6157770763138181881}
   m_Layer: 0
   m_Name: Cross1
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1750,7 +1750,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1794,7 +1794,7 @@ GameObject:
   - component: {fileID: 6157770763154860686}
   m_Layer: 0
   m_Name: valla
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1831,7 +1831,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1875,7 +1875,7 @@ GameObject:
   - component: {fileID: 6157770763184626955}
   m_Layer: 0
   m_Name: Costal4 (2)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1912,7 +1912,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1956,7 +1956,7 @@ GameObject:
   - component: {fileID: 6157770763201797402}
   m_Layer: 0
   m_Name: Costal3 (3)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1993,7 +1993,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2037,7 +2037,7 @@ GameObject:
   - component: {fileID: 6157770763267567646}
   m_Layer: 0
   m_Name: Cross3
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2074,7 +2074,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2118,7 +2118,7 @@ GameObject:
   - component: {fileID: 6157770763427066095}
   m_Layer: 0
   m_Name: Cross1 (4)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2155,7 +2155,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2199,7 +2199,7 @@ GameObject:
   - component: {fileID: 6157770763445510822}
   m_Layer: 0
   m_Name: valla (2)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2236,7 +2236,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2280,7 +2280,7 @@ GameObject:
   - component: {fileID: 6157770763530252384}
   m_Layer: 0
   m_Name: Costal4 (5)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2317,7 +2317,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2361,7 +2361,7 @@ GameObject:
   - component: {fileID: 6157770763532237475}
   m_Layer: 0
   m_Name: valla (7)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2398,7 +2398,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2442,7 +2442,7 @@ GameObject:
   - component: {fileID: 6157770763545966890}
   m_Layer: 0
   m_Name: Cross3 (1)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2479,7 +2479,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2523,7 +2523,7 @@ GameObject:
   - component: {fileID: 6157770763572076671}
   m_Layer: 0
   m_Name: Costal3 (2)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2560,7 +2560,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2604,7 +2604,7 @@ GameObject:
   - component: {fileID: 6157770763602099198}
   m_Layer: 0
   m_Name: Costal4 (11)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2641,7 +2641,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2685,7 +2685,7 @@ GameObject:
   - component: {fileID: 6157770763642449826}
   m_Layer: 0
   m_Name: Cross2 (4)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2722,7 +2722,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2766,7 +2766,7 @@ GameObject:
   - component: {fileID: 6157770763646051253}
   m_Layer: 0
   m_Name: Costal4 (8)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2803,7 +2803,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2847,7 +2847,7 @@ GameObject:
   - component: {fileID: 6157770763677165772}
   m_Layer: 0
   m_Name: valla (14)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2884,7 +2884,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2928,7 +2928,7 @@ GameObject:
   - component: {fileID: 6157770763677603872}
   m_Layer: 0
   m_Name: Costal4 (10)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2965,7 +2965,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3009,7 +3009,7 @@ GameObject:
   - component: {fileID: 6157770763681254857}
   m_Layer: 0
   m_Name: Cross1 (2)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3046,7 +3046,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3090,7 +3090,7 @@ GameObject:
   - component: {fileID: 6157770763708293261}
   m_Layer: 0
   m_Name: valla (8)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3127,7 +3127,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3171,7 +3171,7 @@ GameObject:
   - component: {fileID: 6157770763748824340}
   m_Layer: 0
   m_Name: Costal3 (4)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3208,7 +3208,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3252,7 +3252,7 @@ GameObject:
   - component: {fileID: 6157770763870991017}
   m_Layer: 0
   m_Name: Costal4 (4)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3289,7 +3289,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3333,7 +3333,7 @@ GameObject:
   - component: {fileID: 6157770763881410277}
   m_Layer: 0
   m_Name: Rock3
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3370,7 +3370,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3414,7 +3414,7 @@ GameObject:
   - component: {fileID: 6157770763897610234}
   m_Layer: 0
   m_Name: valla (6)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3451,7 +3451,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3577,7 +3577,7 @@ GameObject:
   - component: {fileID: 6157770763984402382}
   m_Layer: 0
   m_Name: Costal3
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3614,7 +3614,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3658,7 +3658,7 @@ GameObject:
   - component: {fileID: 6157770764012463289}
   m_Layer: 0
   m_Name: Cross2
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3695,7 +3695,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3739,7 +3739,7 @@ GameObject:
   - component: {fileID: 6157770764069027661}
   m_Layer: 0
   m_Name: Costal4 (13)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3776,7 +3776,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3820,7 +3820,7 @@ GameObject:
   - component: {fileID: 6157770764085055155}
   m_Layer: 0
   m_Name: Costal4 (3)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3857,7 +3857,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3901,7 +3901,7 @@ GameObject:
   - component: {fileID: 6157770764086109861}
   m_Layer: 0
   m_Name: Costal4 (14)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3938,7 +3938,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3982,7 +3982,7 @@ GameObject:
   - component: {fileID: 6157770764089961919}
   m_Layer: 0
   m_Name: Costal4 (1)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4019,7 +4019,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4063,7 +4063,7 @@ GameObject:
   - component: {fileID: 6157770764102284510}
   m_Layer: 0
   m_Name: Costal4 (15)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4100,7 +4100,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4144,7 +4144,7 @@ GameObject:
   - component: {fileID: 6157770764138853428}
   m_Layer: 0
   m_Name: Cross2 (2)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4181,7 +4181,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4225,7 +4225,7 @@ GameObject:
   - component: {fileID: 4661882335473946475}
   m_Layer: 0
   m_Name: Costal4 (16)
-  m_TagString: Untagged
+  m_TagString: InteractableBubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4262,7 +4262,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9bce05e477b9c0043ab933ba0e82f864, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

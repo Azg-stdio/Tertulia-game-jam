@@ -6,11 +6,11 @@ public class BubbleReducer : MonoBehaviour
 {
 // Array to store all the GameObjects in the scene
     GameObject[] AllGameObjects;
-    public float bubbleradius=4.0f;
+    public float bubbleradius=5.0f;
     public GameObject bubble;
     public void ReduceBubble () {
-        bubbleradius-=0.3f;    
-        bubble.transform.localScale*=0.9f;  
+        bubbleradius-=0.5f;    
+        bubble.transform.localScale*=0.86f;  
         ChangeMaterials();
     }
     void ChangeMaterials(){
@@ -21,8 +21,10 @@ public class BubbleReducer : MonoBehaviour
                     go.GetComponent<Renderer>().sharedMaterial.SetFloat("_Radius", bubbleradius);
                 }
                 else if(go.GetComponent<Renderer>().material.shader.name=="Shader Graphs/TransitionTest_2"){
-                    go.GetComponent<Renderer>().sharedMaterial.SetFloat("Vector1_72CC4653", bubbleradius);                
-                    
+                    go.GetComponent<Renderer>().sharedMaterial.SetFloat("_Radius", bubbleradius);               
+                }
+                else if(go.GetComponent<Renderer>().material.shader.name=="Shader Graphs/Transition_test"){
+                    go.GetComponent<Renderer>().sharedMaterial.SetFloat("_Radius", bubbleradius);               
                 }
             }
         }

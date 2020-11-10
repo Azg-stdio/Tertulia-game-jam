@@ -8,7 +8,9 @@ public class Grab : MonoBehaviour
     public Image newspiece;
     public GameObject canvas;
     public GameObject piece;
-    public GameObject bubble;
+    public GameObject bubblehandler;
+    public GameObject door;
+    public int pieces=0;
     void Start()
     {
         
@@ -22,8 +24,16 @@ public class Grab : MonoBehaviour
             newspiece.sprite=GetComponent<SpriteRenderer>().sprite;
             canvas.SetActive(true);
             piece.SetActive(true);
-            bubble.GetComponent<BubbleReducer>().ReduceBubble();
-            Destroy(this.gameObject);
-        }
+            bubblehandler.GetComponent<BubbleReducer>().ReduceBubble();
+            this.gameObject.SetActive(false);
+            pieces++;
+            if(pieces>=6){
+                ActivateDoor();
+            }
+        }        
+    }
+
+    public void ActivateDoor(){
+        door.GetComponent<SphereCollider>().enabled=true;
     }
 }
