@@ -22,13 +22,20 @@ public class EnemyController : MonoBehaviour
     public bool isChasing { get; set; }
     public bool isPatrolling { get; set; }
     public bool canSeePlayer { get; set; }
+    private string currentState;
+
+    private const string SLEEP = "EnemyIdleSleep";
+    private const string MOVE = "EnemyFollow";
+    private float timer = 0.0f;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         //logicAnimator = GetComponent<Animator>();
         patrolActualDestination = patrolPoints[Random.Range(0, patrolPoints.Count)];
-        isStarted = true;
+        isStarted = false;
+        ChangeAnimationState(SLEEP);
         canSeePlayer = true;
+        ActivateMonster();
     }
 
     void Update()
@@ -75,5 +82,14 @@ public class EnemyController : MonoBehaviour
             }
         }
     }
-
+    public void ActivateMonster(){
+        isStarted = true;
+        ChangeAnimationState(MOVE);
+        UpdateDetectionLogic();
+    }
+        void ChangeAnimationState(string newState){
+        if(currentState == newState) return;
+        animator.Play(newState);
+        currentState = newState;
+    }
 }
