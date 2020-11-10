@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - InteractableBubble
   - Bubble
+  - Door
   layers:
   - Default
   - TransparentFX
