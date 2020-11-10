@@ -8,6 +8,8 @@ public class EnemyController : MonoBehaviour
     [SerializeField]
     private GameObject player;
     [SerializeField]
+    private GameObject musicController;
+    [SerializeField]
     private Animator animator;
     [SerializeField]
     private float detectionRange = 10.0f;
@@ -18,6 +20,7 @@ public class EnemyController : MonoBehaviour
     private Transform patrolActualDestination;
     //private Animator logicAnimator;
     private NavMeshAgent agent;
+    private MusicHandler musicHandler;
     public bool isStarted { get; set; }
     public bool isChasing { get; set; }
     public bool isPatrolling { get; set; }
@@ -34,6 +37,7 @@ public class EnemyController : MonoBehaviour
         patrolActualDestination = patrolPoints[Random.Range(0, patrolPoints.Count)];
         isStarted = false;
         ChangeAnimationState(SLEEP);
+        musicHandler = musicController.GetComponent<MusicHandler>();
         canSeePlayer = true;
         ActivateMonster();
     }
@@ -54,6 +58,7 @@ public class EnemyController : MonoBehaviour
             }
             else
             {
+                
                 if ((transform.position - patrolActualDestination.transform.position).magnitude < tresholdToPatrolPoint)
                 {
                     patrolActualDestination = patrolPoints[Random.Range(0, patrolPoints.Count)];
@@ -70,15 +75,16 @@ public class EnemyController : MonoBehaviour
     {
         if (isStarted)
         {
-            if (canSeePlayer == false) {isPatrolling = true; isChasing = false;}//logicAnimator.SetBool("isPatrolling", true);logicAnimator.SetBool("isChasing", false);}
+            if (canSeePlayer == false) {isPatrolling = true; isChasing = false;musicHandler.DeactivateRush();}//logicAnimator.SetBool("isPatrolling", true);logicAnimator.SetBool("isChasing", false);}
             else
             {
                 Debug.Log((player.transform.position - transform.position).magnitude);
                 if ((player.transform.position - transform.position).magnitude < detectionRange) {
-                    isPatrolling = false; isChasing = true;}//logicAnimator.SetBool("isChasing", true);
+                    isPatrolling = false; isChasing = true;
+                    musicHandler.ActivateRush();}//logicAnimator.SetBool("isChasing", true);
                     //logicAnimator.SetBool("isPatrolling", false);}
 
-                else {isPatrolling = true; isChasing = false;}//logicAnimator.SetBool("isPatrolling", true);logicAnimator.SetBool("isChasing", false);}
+                else {isPatrolling = true; isChasing = false;musicHandler.DeactivateRush();}//logicAnimator.SetBool("isPatrolling", true);logicAnimator.SetBool("isChasing", false);}
             }
         }
     }

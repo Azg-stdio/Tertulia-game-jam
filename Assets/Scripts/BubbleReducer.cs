@@ -12,7 +12,7 @@ public class BubbleReducer : MonoBehaviour
     public GameObject door;
     public void ReduceBubble () {
         bubbleradius-=0.5f;    
-        bubble.transform.localScale*=0.86f;  
+        bubble.transform.localScale*=0.87f;  
         ChangeMaterials();
         pieces++;
         if(pieces >= 6){

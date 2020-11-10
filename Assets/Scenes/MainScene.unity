@@ -23691,6 +23691,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c1bbb02ab382b647b28f9d0f351e225, type: 3}
+--- !u!1 &1745442952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6479630708941492057, guid: 838481b5e8e22ec498e545fe07167068,
+    type: 3}
+  m_PrefabInstance: {fileID: 775016315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1762841245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25744,8 +25750,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3a4893b653ea7e469eef0d237901d7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
-  runSpeed: 12
+  speed: 4
+  runSpeed: 7
   animator: {fileID: 1941842748}
   canvas: {fileID: 295728809}
 --- !u!54 &1945333175
@@ -27315,8 +27321,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1945333173}
+  musicController: {fileID: 1745442952}
   animator: {fileID: 2023838315}
-  detectionRange: 10
+  detectionRange: 20
   tresholdToPatrolPoint: 2
   patrolPoints:
   - {fileID: 1242232287}
@@ -27333,7 +27340,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1.58
-  m_Speed: 3.5
+  m_Speed: 4.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
