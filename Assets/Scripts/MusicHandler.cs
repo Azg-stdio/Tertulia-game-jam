@@ -8,6 +8,8 @@ public class MusicHandler : MonoBehaviour
     void Start()
     {
         PlayMainMusic();
+        basic.volume=1;
+        rush.volume=0;
     }
 
     void Update()

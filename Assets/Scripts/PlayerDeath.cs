@@ -8,6 +8,8 @@ public class PlayerDeath : MonoBehaviour
 {
     public Image img;
     public Transform initialpos, finalpos;
+    public Transform bosspos;
+    public GameObject boss;
     public AudioSource death;
     void Start()
     {
@@ -17,7 +19,9 @@ public class PlayerDeath : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape)){
+            SceneManager.LoadScene("LoadScreen");
+        }
     }
 
     void OnTriggerEnter(Collider enemy) {
@@ -64,6 +68,7 @@ public class PlayerDeath : MonoBehaviour
             }
             img.color = new Color(0, 0, 0, 1);
             TeleportToPos(initialpos);
+            boss.transform.position=bosspos.position;
             yield return new WaitForSeconds(1.0f);
             StartCoroutine(FadeImage(true));
         }

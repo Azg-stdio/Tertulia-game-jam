@@ -9,6 +9,7 @@ public class Grab : MonoBehaviour
     public GameObject canvas;
     public GameObject piece;
     public GameObject bubblehandler;
+    public AudioSource sfx;
     void Start()
     {
         
@@ -24,7 +25,7 @@ public class Grab : MonoBehaviour
             piece.SetActive(true);
             bubblehandler.GetComponent<BubbleReducer>().ReduceBubble();
             this.gameObject.SetActive(false);
-            
+            sfx.Play();
         }        
     }
 }

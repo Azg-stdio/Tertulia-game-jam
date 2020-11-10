@@ -11,6 +11,7 @@ public class Hide : MonoBehaviour
     public bool hiding;
     public GameObject poofcloud;
     private Vector3 lastpos;
+    public AudioSource sfx;
     void Start()
     {
         hiding=false;
@@ -32,6 +33,7 @@ public class Hide : MonoBehaviour
                 GameObject clone = Instantiate(poofcloud, pj.transform.position, transform.rotation);
                 Destroy(clone, 1.0f);
                 hiding=!hiding;
+                sfx.Play();
             }   
             else{
                 pj.GetComponent<PlayerController>().StartMoving();
