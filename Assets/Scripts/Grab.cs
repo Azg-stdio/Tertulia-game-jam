@@ -9,8 +9,6 @@ public class Grab : MonoBehaviour
     public GameObject canvas;
     public GameObject piece;
     public GameObject bubblehandler;
-    public GameObject door;
-    public int pieces=0;
     void Start()
     {
         
@@ -26,14 +24,7 @@ public class Grab : MonoBehaviour
             piece.SetActive(true);
             bubblehandler.GetComponent<BubbleReducer>().ReduceBubble();
             this.gameObject.SetActive(false);
-            pieces++;
-            if(pieces>=6){
-                ActivateDoor();
-            }
+            
         }        
-    }
-
-    public void ActivateDoor(){
-        door.GetComponent<SphereCollider>().enabled=true;
     }
 }
