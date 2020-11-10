@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
                 ChangeAnimationState(STAND_FRONT);
                 //ChangeAnimationState(STAND_BACK);
             }
-            //isRunning =  Input.GetButton("Run");
+            isRunning =  Input.GetButton("Run");
         }   
         if (Input.GetKeyDown("space")){     
             if (canvas.activeSelf){
