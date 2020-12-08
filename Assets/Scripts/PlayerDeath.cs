@@ -11,6 +11,7 @@ public class PlayerDeath : MonoBehaviour
     public Transform bosspos;
     public GameObject boss;
     public AudioSource death;
+    public GameObject hero;
     void Start()
     {
         
@@ -38,7 +39,8 @@ public class PlayerDeath : MonoBehaviour
     }
 
     public void TeleportToPos(Transform pos){
-        transform.position=pos.position;        
+        transform.position=pos.position; 
+        hero.GetComponent<MeshRenderer>().enabled=true;       
     }
 
     IEnumerator FadeImage(bool fadeAway)

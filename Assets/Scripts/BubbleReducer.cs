@@ -20,8 +20,11 @@ public class BubbleReducer : MonoBehaviour
         }
     }
 
-    void ChangeMaterials(){
+    void Start(){
         AllGameObjects = GameObject.FindObjectsOfType(typeof(GameObject)) as GameObject[];
+    }
+
+    void ChangeMaterials(){        
         foreach (GameObject go in AllGameObjects) {
             if (go.GetComponent<Renderer>()) {
                 if(go.GetComponent<Renderer>().material.shader.name=="Shader Graphs/TransitionTest_3"){

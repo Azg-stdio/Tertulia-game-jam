@@ -5,11 +5,10 @@ using UnityEngine;
 public class MusicHandler : MonoBehaviour
 {
     public AudioSource basic, rush;
+    public float transition=0.5f;
     void Start()
     {
         PlayMainMusic();
-        basic.volume=1;
-        rush.volume=0;
     }
 
     void Update()
@@ -40,7 +39,8 @@ public class MusicHandler : MonoBehaviour
     IEnumerator ChangeMusic(bool activeRush)
     {
         if (activeRush){
-            for (float i = 0; i <= 1; i += Time.deltaTime)
+            rush.mute=false;
+            for (float i = 0; i <= 1; i += (Time.deltaTime*transition))
             {                
                 rush.volume=i;
                 basic.volume=1-i;
@@ -50,7 +50,7 @@ public class MusicHandler : MonoBehaviour
             basic.volume=0;
         }
         else{
-            for (float i = 0; i <= 1; i += Time.deltaTime)
+            for (float i = 0; i <= 1; i += (Time.deltaTime*transition))
             {
                 
                 rush.volume=1-i;
