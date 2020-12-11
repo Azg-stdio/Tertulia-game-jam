@@ -5,9 +5,9 @@ using UnityEngine;
 public class MusicHandler : MonoBehaviour
 {
     public AudioSource basic, rush;
-    public float transition=0.5f;
     void Start()
     {
+        AudioListener.volume=1.0f;
         PlayMainMusic();
     }
 
@@ -40,7 +40,7 @@ public class MusicHandler : MonoBehaviour
     {
         if (activeRush){
             rush.mute=false;
-            for (float i = 0; i <= 1; i += (Time.deltaTime*transition))
+            for (float i = 0; i <= 1; i += Time.deltaTime)
             {                
                 rush.volume=i;
                 basic.volume=1-i;
@@ -50,7 +50,7 @@ public class MusicHandler : MonoBehaviour
             basic.volume=0;
         }
         else{
-            for (float i = 0; i <= 1; i += (Time.deltaTime*transition))
+            for (float i = 0; i <= 1; i += Time.deltaTime)
             {
                 
                 rush.volume=1-i;
@@ -59,6 +59,18 @@ public class MusicHandler : MonoBehaviour
             }
             rush.volume=0;
             basic.volume=1;
+        }
+    }
+
+    public void KillMusic(){
+        StartCoroutine(StopMusic());
+    }
+
+    IEnumerator StopMusic(){
+        for (float i = 1; i >= 0; i -= (Time.deltaTime*1.2f))
+        {                
+            AudioListener.volume=i;
+            yield return null;
         }
     }
 }

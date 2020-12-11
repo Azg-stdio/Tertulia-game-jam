@@ -12,6 +12,7 @@ public class PlayerDeath : MonoBehaviour
     public GameObject boss;
     public AudioSource death;
     public GameObject hero;
+    public GameObject musicHandler;
     void Start()
     {
         
@@ -77,7 +78,8 @@ public class PlayerDeath : MonoBehaviour
     }
 
     IEnumerator FinishGame(){
+        musicHandler.GetComponent<MusicHandler>().KillMusic();
         yield return new WaitForSeconds(2.0f);
-        SceneManager.LoadScene("LoadScreen");
+        SceneManager.LoadScene("EndingV1");
     }
 }

@@ -14,6 +14,10 @@ public class MenuManager : MonoBehaviour
     public GameObject mnuCredits;
     public GameObject[] objsCredits;
 
+    void Start(){
+        AudioListener.volume=1.0f;
+    }
+
     public void PlayGame()
     {
         Debug.Log("CLIIIIIIIIIIIICK");

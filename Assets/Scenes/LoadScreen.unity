@@ -544,9 +544,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'return
-
-'
+  m_text: regresar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9073ecaa7fa865845836e7783b6c2a81, type: 2}
   m_sharedMaterial: {fileID: 6124018755550957785, guid: 9073ecaa7fa865845836e7783b6c2a81,
@@ -1154,12 +1152,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Character Design & Animation
-
-
-    Estefania Castano
-
-'
+  m_text: "Dise\xF1o de personajes y animaci\xF3n\n\nEstefania Castano\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9073ecaa7fa865845836e7783b6c2a81, type: 2}
   m_sharedMaterial: {fileID: 6124018755550957785, guid: 9073ecaa7fa865845836e7783b6c2a81,
@@ -1420,7 +1413,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Environment & Props\n\nCamila Ni\xF1o\n"
+  m_text: "Ambientaci\xF3n y escenario\n\nCamila Ni\xF1o\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9073ecaa7fa865845836e7783b6c2a81, type: 2}
   m_sharedMaterial: {fileID: 6124018755550957785, guid: 9073ecaa7fa865845836e7783b6c2a81,
@@ -2556,7 +2549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: credits
+  m_text: creditos
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9073ecaa7fa865845836e7783b6c2a81, type: 2}
   m_sharedMaterial: {fileID: 6124018755550957785, guid: 9073ecaa7fa865845836e7783b6c2a81,
@@ -2764,7 +2757,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: controls
+  m_text: controles
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9073ecaa7fa865845836e7783b6c2a81, type: 2}
   m_sharedMaterial: {fileID: 6124018755550957785, guid: 9073ecaa7fa865845836e7783b6c2a81,
@@ -2878,7 +2871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: -0.66545844, y: 2.045066}
   m_AnchorMax: {x: 1.3454584, y: 2.456979}
-  m_AnchoredPosition: {x: 0, y: -58.000122}
+  m_AnchoredPosition: {x: 0, y: -58.000145}
   m_SizeDelta: {x: 0.0000019073486, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1153432977
@@ -3270,7 +3263,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: credits
+  m_text: creditos
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9073ecaa7fa865845836e7783b6c2a81, type: 2}
   m_sharedMaterial: {fileID: 6124018755550957785, guid: 9073ecaa7fa865845836e7783b6c2a81,
@@ -4385,7 +4378,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'return
+  m_text: 'regresar
 
 '
   m_isRightToLeft: 0
@@ -4943,7 +4936,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Programming\n\nMiguel Arbel\xE1ez\n\nNicol\xE1s Casanova"
+  m_text: "Programaci\xF3n\n\nMiguel Arbel\xE1ez\n\nNicol\xE1s Casanova"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9073ecaa7fa865845836e7783b6c2a81, type: 2}
   m_sharedMaterial: {fileID: 6124018755550957785, guid: 9073ecaa7fa865845836e7783b6c2a81,
@@ -5207,13 +5200,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tech Art & Design
-
-
-    Nathalie Barbosa
-
-
-'
+  m_text: "Arte t\xE9cnico y dise\xF1o\n\nNathalie Barbosa\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9073ecaa7fa865845836e7783b6c2a81, type: 2}
   m_sharedMaterial: {fileID: 6124018755550957785, guid: 9073ecaa7fa865845836e7783b6c2a81,
@@ -5347,7 +5334,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Special Thanks
+  m_text: 'Agradecimientos especiales
 
 
     Edward Dominguez
@@ -5614,7 +5601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: controls
+  m_text: controles
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9073ecaa7fa865845836e7783b6c2a81, type: 2}
   m_sharedMaterial: {fileID: 6124018755550957785, guid: 9073ecaa7fa865845836e7783b6c2a81,
@@ -6352,7 +6339,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: play
+  m_text: jugar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9073ecaa7fa865845836e7783b6c2a81, type: 2}
   m_sharedMaterial: {fileID: 6124018755550957785, guid: 9073ecaa7fa865845836e7783b6c2a81,
