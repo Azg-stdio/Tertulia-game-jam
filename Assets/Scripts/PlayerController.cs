@@ -15,6 +15,10 @@ public class PlayerController : MonoBehaviour
     private bool isMoving = true;
     public GameObject canvas;
 
+    [SerializeField] AudioClip clipAudioWalk;
+    [SerializeField] AudioClip clipAudioRun;
+
+    AudioSource audioPlayer;
     //Animation names
     const string WALK_FRONT = "HeroWalkFrontViewWander";
     const string WALK_BACK = "HeroWalkBackwards";
@@ -25,8 +29,14 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         ChangeAnimationState(STAND_FRONT);
+        
     }
-
+    private void Start() {
+        audioPlayer = GetComponent<AudioSource>();
+        audioPlayer.Pause();
+        audioPlayer.pitch = 1.2f;
+        audioPlayer.clip = clipAudioWalk;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -41,12 +51,22 @@ public class PlayerController : MonoBehaviour
                 //ChangeAnimationState(STAND_BACK);
             }
             isRunning =  Input.GetButton("Run");
-        }   
+            if(isRunning) audioPlayer.pitch = 1.5f;
+            else audioPlayer.pitch = 1.2f;
+        }
         if (Input.GetKeyDown("space")){     
             if (canvas.activeSelf){
                 canvas.SetActive(false);
             }
-        }    
+        }   
+        //handle audio
+        if(currentState == WALK_BACK || currentState == WALK_FRONT){
+            //if(isRunning) if(audioPlayer.clip == clipAudioWalk){audioPlayer.Stop();audioPlayer.clip=clipAudioRun;}
+            //else if(audioPlayer.clip == clipAudioRun){audioPlayer.Stop();audioPlayer.clip=clipAudioWalk;}
+            if(!audioPlayer.isPlaying) audioPlayer.Play();
+        }
+        else if(audioPlayer.isPlaying) audioPlayer.Pause();
+        
     }
     private void FixedUpdate()
     {
